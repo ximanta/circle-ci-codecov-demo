@@ -27,6 +27,6 @@ public class RestaurantControllerTest {
     public void displayRestaurant() throws Exception{
         movieMockMvc.perform(get("/home"))
                 .andExpect(status().isOk())
-                .andExpect(content().string("Hell"));
+                .andExpect(content().string("Hello"));
     }
 }
