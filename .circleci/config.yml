@@ -42,5 +42,5 @@ jobs:
       - run: mvn clean integration-test
 
       -run:
-        name: Send to CodeCov
-        command: bash <{curl -s https://codecov.io/bash}
+          name: Send to CodeCov
+          command: bash <{curl -s https://codecov.io/bash}
